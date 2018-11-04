@@ -5,6 +5,7 @@ The categories are : Ka, Kha , Ga, Gha, Kna
 Model Used : Scequential Model (From Keras Library : Deep Learning Approach)
 
 About Model 0:
+------------
 -> 1 Convolutional 2D Layer
 ->Max Pooling Layer
 -> 2 Dense Layers
@@ -12,8 +13,11 @@ Learning Rate : 0.01
 Optimiser = Adam
 EPOCH : 32
 ACCURACY : 0.95
+
 ----------------------------------------------------------------
+
 About Model 1 [ FINAL MODEL]:
+---------
 -> Two Convolutional 2DLayers are added with Activation being Relu.
 -> Max Pooling 2D Layer is added 
 ->Two dense layers are added (activation : Relu and Softmax)
@@ -22,12 +26,13 @@ EPOCH :10
 ACCURACY : 0.611 {Probably because of the low learning rate}
 
 2. Learning Rate : 0.01 , OPTIMISER : ADAM
-ACCURACY :
+ACCURACY : 0.88
 
 
 ---------------------------------------------------------------
 
 PROBLEMS FACED : 
+------------
 
 Data Reading and formation.
 Initially Trying with just x_train : Image array data
