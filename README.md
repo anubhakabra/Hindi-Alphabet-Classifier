@@ -16,13 +16,13 @@ Learning Rate : 0.01
 
 Optimiser = Adam
 
-EPOCH : 32
+EPOCH : 32  ACCURACY : 0.95
 
-ACCURACY : 0.95
+EPOCH : 15 ACCURACY : 0.963
 
 ----------------------------------------------------------------
 
-About Model 1 [ FINAL MODEL]:
+About Model 1 :
 ---------
 -> Two Convolutional 2DLayers are added with Activation being Relu.
 
@@ -38,6 +38,10 @@ ACCURACY : 0.611 {Probably because of the low learning rate}
 2. Learning Rate : 0.01 , OPTIMISER : ADAM
 ACCURACY : 0.88
 
+EPOCH 15 , ACCURACY : 0.91
+
+EPOCH 32 , ACCURACY : 0.956
+
 
 ---------------------------------------------------------------
 
@@ -46,21 +50,21 @@ PROBLEMS FACED :
 
 Data Reading and formation.
 
-Initially Trying with just x_train : Image array data
+->Initially Trying with just x_train : Image array data
 
--> Read about Image Data Generation wih keras : Put the data more into place ( Fitting x_train and x_test data accordingly)
+Read about Image Data Generation wih keras : Put the data more into place ( Fitting x_train and x_test data accordingly)
 
-Which approach to take up: 
+->Which approach to take up: 
 
 Read various methods of implementation of classifier, Deep Learning using CNN showing the best result in various strategy, hence finally deciding to impement this.
 
-Experimentation with various models types:
+->Experimentation with various models types:
 
 Several models implemented, with experimentaton on layers.
 
 Model 0 and Model 1 shown.
 
-Learning rate and Activation function:
+->Learning rate and Activation function:
 
 Learning rate : Tried various learning rates : 0.01 being most suitable
 
